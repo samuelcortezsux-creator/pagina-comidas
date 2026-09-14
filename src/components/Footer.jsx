@@ -1,5 +1,4 @@
-// Pie de página: usa "new Date().getFullYear()" para que el año
-// se actualice solo, sin tener que cambiarlo a mano cada año.
+
 function Footer() {
   const anioActual = new Date().getFullYear()
 

@@ -1,12 +1,9 @@
-/* Estilos adicionales que complementan a Bootstrap.
-   Aquí solo ponemos detalles que Bootstrap no trae por defecto. */
 
 body {
   font-family: 'Segoe UI', Roboto, Arial, sans-serif;
-  scroll-behavior: smooth; /* hace que los saltos del Navbar sean animados */
+  scroll-behavior: smooth; 
 }
 
-/* Efecto sutil al pasar el mouse sobre las tarjetas del menú */
 .card {
   transition: transform 0.2s ease-in-out;
 }

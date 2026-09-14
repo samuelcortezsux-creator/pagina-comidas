@@ -1,5 +1,4 @@
-// Sección "Nosotros": usa el sistema de grillas de Bootstrap (row / col)
-// para poner una imagen a un lado y el texto al otro.
+
 function Nosotros() {
   return (
     <section id="nosotros" className="py-5">

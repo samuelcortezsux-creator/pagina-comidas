@@ -1,6 +1,4 @@
-// Sección de Promociones: usa "cards" de Bootstrap con un color de fondo
-// distinto para que resalten. Los datos también están en un arreglo,
-// igual que en Menu.jsx, para poder recorrerlos con .map()
+
 const promos = [
   {
     id: 1,

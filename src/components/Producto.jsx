@@ -1,8 +1,6 @@
 import { useCarrito } from '../context/CarritoContext'
 
-// Componente "Producto": representa UN solo platillo (una tarjeta).
-// Recibe los datos por "props" para poder reutilizarlo muchas veces
-// dentro de Menu.jsx, cambiando solo la información que le pasamos.
+
 function Producto({ id, nombre, descripcion, precio, imagen }) {
   const { agregarAlCarrito } = useCarrito()
 

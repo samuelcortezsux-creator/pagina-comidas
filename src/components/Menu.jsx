@@ -1,8 +1,6 @@
 import Producto from './Producto'
 
-// Aquí guardamos la información de cada platillo en un arreglo (array).
-// Esto evita repetir código: en vez de escribir 6 tarjetas a mano,
-// recorremos este arreglo con .map() y generamos una <Producto /> por cada dato.
+
 const platillos = [
   {
     id: 1,

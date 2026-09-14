@@ -1,10 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useCarrito } from '../context/CarritoContext'
 
-// Barra de navegación superior.
-// Los enlaces con "#" (Inicio, Menú, etc.) hacen scroll dentro de la
-// página Home. El enlace "Carrito" usa <Link> de React Router porque
-// te lleva a OTRA página ("/carrito"), no a una sección con scroll.
 function Navbar() {
   const { totalItems } = useCarrito()
 

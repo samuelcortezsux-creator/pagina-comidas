@@ -1,8 +1,5 @@
 import { useState } from 'react'
 
-// Sección de Contacto: aquí usamos "useState" para guardar lo que el
-// usuario escribe en el formulario. Esto es lo que se llama un
-// "componente controlado": React controla el valor de cada input.
 function Contacto() {
   const [formulario, setFormulario] = useState({
     nombre: '',
@@ -10,13 +7,13 @@ function Contacto() {
   })
   const [enviado, setEnviado] = useState(false)
 
-  // Se ejecuta cada vez que el usuario escribe en un input
+
   const manejarCambio = (evento) => {
     const { name, value } = evento.target
     setFormulario({ ...formulario, [name]: value })
   }
 
-  // Se ejecuta cuando el usuario envía el formulario
+
   const manejarEnvio = (evento) => {
     evento.preventDefault() // evita que la página se recargue
     setEnviado(true)

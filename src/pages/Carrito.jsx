@@ -1,9 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useCarrito } from '../context/CarritoContext'
 
-// Esta es una PÁGINA (no una sección de la home), por eso vive en
-// src/pages/ y no en src/components/. React Router se encarga de
-// mostrarla solo cuando la URL es "/carrito" (ver App.jsx).
+
 function Carrito() {
   const { items, quitarDelCarrito, vaciarCarrito, totalPrecio } = useCarrito()
 

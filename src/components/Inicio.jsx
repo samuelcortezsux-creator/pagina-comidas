@@ -1,6 +1,4 @@
-// Sección "Inicio": lo primero que ve el usuario al entrar a la página.
-// Es un "hero" simple hecho con clases de utilidad de Bootstrap
-// (py-5 = padding vertical, text-center = texto centrado, etc.)
+
 function Inicio() {
   return (
     <section id="inicio" className="bg-warning-subtle py-5">
