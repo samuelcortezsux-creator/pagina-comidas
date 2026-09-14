@@ -26,7 +26,7 @@ function Promociones() {
       <div className="container">
         <h2 className="text-center fw-bold mb-5">Promociones de la semana</h2>
 
-        <div className="row g-4">
+        <div className="row g-1">
           {promos.map((promo) => (
             <div className="col-md-4" key={promo.id}>
               <div className="card bg-secondary bg-opacity-25 border-0 h-100 text-center p-4">
