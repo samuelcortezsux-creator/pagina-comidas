@@ -11,3 +11,6 @@ body {
 .card:hover {
   transform: translateY(-4px);
 }
+h1{
+  font-size: xx-large
+}
