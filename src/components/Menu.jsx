@@ -50,7 +50,7 @@ function Menu() {
   return (
     <section id="menu" className="py-5">
       <div className="container">
-        <h2 className="text-center fw-bold mb-2">Nuestro Menú</h2>
+        <h2 className="text-center fw-dark mb-5">Nuestro Menú</h2>
         <p className="text-center text-muted mb-5">
           Elige tu plato favorito, preparado al momento
         </p>
