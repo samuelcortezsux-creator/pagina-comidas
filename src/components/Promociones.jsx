@@ -22,7 +22,7 @@ const promos = [
 
 function Promociones() {
   return (
-    <section id="promociones" className="py-5 bg-dark text-white">
+    <section id="promociones" className="py-5 bg-warning text-white">
       <div className="container">
         <h2 className="text-center fw-bold mb-5">Promociones de la semana</h2>
 
