@@ -3,7 +3,7 @@ function Inicio() {
   return (
     <section id="inicio" className="bg-warning-subtle py-5">
       <div className="container text-center py-5">
-        <h1 className="display-8 fw-bold">Comida casera, hecha con cariño</h1>
+        <h1 className="display-8 fw-bold text-right">Comida casera, hecha con cariño</h1>
         <p className="lead col-lg-8 mx-auto">
           En Sabor Casero preparamos cada plato como si fuera para nuestra
           propia familia. Ingredientes frescos, recetas de siempre y un
