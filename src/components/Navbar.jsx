@@ -5,7 +5,7 @@ function Navbar() {
   const { totalItems } = useCarrito()
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-light sticky-top">
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">
           🍽️ Sabor Casero
