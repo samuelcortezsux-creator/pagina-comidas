@@ -1,8 +1,8 @@
 
 function Inicio() {
   return (
-    <section id="inicio" className="bg-warning-subtle py-2">
-      <div className="container text-left py-5">
+    <section id="inicio" className="bg-warnin-subtle py-2">
+      <div className="container text-left py-2">
         <h1 className="display-8 fw-bold text-left">Comida casera, hecha con cariño</h1>
         <p className="lead col-lg-8 mx-auto">
           En Sabor Casero preparamos cada plato como si fuera para nuestra
