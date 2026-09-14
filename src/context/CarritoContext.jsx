@@ -1,6 +1,12 @@
 import { createContext, useContext, useState } from 'react'
 
+// Un "Context" en React sirve para compartir información (en este caso,
+// el carrito) entre componentes que no son padre-hijo directo, sin tener
+// que pasar props manualmente por cada nivel (esto se llama "prop drilling").
+const CarritoContext = createContext()
 
+// Este Provider envuelve toda la app (lo hacemos en App.jsx) y le da
+// acceso al carrito a cualquier componente que lo necesite.
 export function CarritoProvider({ children }) {
   const [items, setItems] = useState([])
 
